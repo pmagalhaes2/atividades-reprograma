@@ -14,7 +14,7 @@
 }
 
 body {
-  background: url(/assets/images/bg.jpg);
+  background: url(../images/bg.jpg);
 }
 
 nav {
