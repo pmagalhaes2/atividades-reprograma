@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: block;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 2px;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #674582;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 24px;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+  height: 104px;
+}
+
+.navbar__nav li {
+  margin: 0 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar__logo {
+  max-width: 200px;
+}
+
+.navbar__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar__nav {
+  font-size: 1.1rem;
+  color: #fff;
+  display: flex;
+}
+
+.navbar__nav li {
+  margin: 0 1rem;
+  font-weight: 400;
+}
+
+.navbar__nav li:hover {
+  text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* HEADER */
+.header {
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-image: url(../img/viola-bg.jpg);
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.header__titulo {
+  margin-bottom: 0.5rem;
+  font-size: 4rem;
+  font-weight: 800;
+  color: #fff;
+  text-shadow: 1px 1px 0 #63458a;
+  text-transform: uppercase;
+}
+
+/* --- BOTAO --- */
+/* SECAO Maravilhosa */
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  font-family: Roboto Slab;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #63458a;
+  margin: 40px auto;
+}
+
+.minibio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.minibio__img {
+  width: 210px;
+  height: 210px;
+  margin-right: 70px;
+}
+
+.minibio__img img {
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+.minibio p {
+  margin-left: 70px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  color: #63458a;
+  width: 25%;
+  text-align: justify;
+}
+
+/* citacao */
+
+.citacao {
+  width: 60%;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  border: #674582 1px solid;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: bold;
+  line-height: 2rem;
+  text-align: center;
+  color: #63458a;
+}
+
+/* HISTORIA */
+.sua_historia {
+  width: 60%;
+  margin: auto;
+}
+
+.sua_historia p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  color: #63458a;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.sua_historia__gif {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* AUTORA */
+.autora {
+  background-color: #e4b7e5;
+  /* height: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.autora__container {
+  display: flex;
+}
+
+
+.autora__img img {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.img-responsive {
+  width: 100%;
+  height: 100%;
+}
+
+.autora__info {
+  align-self: center;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.autora__info a,
+.autora__info p {
+  margin: 0;
+  color: #63458a;
+  font-weight: 700;
+  line-height: 1.5rem;
+  min-width: 90px;
+}
+
+/* BOTÃO */
+.button {
+  margin: 0 auto;
+  width: 50%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.button__link {
+  padding: 10px;
+  margin: 0;
+  width: 238px;
+  font-size: 20px;
+  text-transform: uppercase;
+  height: 49px;
+  background-color: #c083b9;
+  border-radius: 10px;
+  color: white;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #323534;
+  color: #f3f3f3;
+  margin-top: 2rem;
+}
+
+.footer__menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  padding: 50px;
+}
+
+.footer__links {
+  display: block;
+  text-align: center;
+  list-style: none;
+}
+
+.footer__cc {
+  width: 100%;
+  text-align: center;
+  background-color: #292a2a;
+  opacity: 0.8;
+  font-size: 0.7rem;
+  height: 25px;
+  padding: 5px;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar__box {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .navbar__nav {
+    display: none;
+  }
+
+  .header {
+    min-height: 60vh;
+  }
+
+  .header__titulo {
+    margin: 20px auto;
+    font-size: 2rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 0;
+    line-height: 30px;
+  }
+
+  main {
+    padding: 0 10%;
+    color: #63458a;
+  }
+
+  .minibio {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .minibio__img {
+    width: auto;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .img-minibio {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .minibio p,
+  .sua_historia p {
+    margin-left: 0;
+    margin-top: 1rem;
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .sua_historia,
+  .citacao {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sua_historia__gif {
+    width: calc(100% - 10%)
+  }
+
+  .autora__container,
+  .button {
+    width: 70%;
+    padding: 1rem;
+  }
+
+  .autora__info {
+    text-align: unset;
+    font-size: 0.6rem;
+  }
+
+  .autora__info a,
+  .autora__info p {
+    line-height: 0.7rem;
+  }
+
+  .button__link {
+    font-size: 1rem;
+  }
+
+  .footer__links {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+
+  .footer__icons {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar__box {
+    width: 100%;
+  }
+
+  h2,
+  h3 {
+    margin: 30px auto;
+  }
+
+  .minibio,
+  .sua_historia,
+  .citacao {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+  }
+
+  .minibio p,
+  .sua_historia p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .sua_historia__gif {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__icons {
+    margin-top: 20px;
+  }
+}
