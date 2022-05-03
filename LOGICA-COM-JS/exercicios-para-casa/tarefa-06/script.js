@@ -9,5 +9,7 @@
 let pagamento = parseFloat(prompt("Quantia dada pelo cliente: "));
 let total = parseFloat(prompt("Total da compra: "));
 let troco = pagamento - total;
-console.log(`Valor do troco: R$${troco}`)
+
+alert(`A total da conta é: R$${total.toFixed(2)} e a quantia dada em dinheiro é: R$${pagamento.toFixed(2)}\n
+Sendo assim, o valor do troco é: R$${troco.toFixed(2)}`);
 
