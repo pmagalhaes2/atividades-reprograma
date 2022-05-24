@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+/* resets */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ff9ff370;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checked:before {
+  content: "🟣";
+}
+
+.done:before {
+  content: "🟢";
+}
+
+
+.container_principal {
+  background-color: #f3f3f3;
+  min-width: 40rem; /* 400px */
+  max-height: 60vh;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  box-shadow: 2px 4px 10px #57657450;
+}
+
+.titulo_lista {
+  margin: 2rem 0 3rem 0;
+  font-size: 2.5rem;
+  color: #2e86de;
+}
+
+/* formulario */
+
+.form_add {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  width: 95%;
+}
+
+.input_add {
+  width: 30rem;
+  height: 100%;
+  padding: 1.2rem 1rem;
+  background-color: #c8d6e5;
+  outline: none;
+  border: solid 1px #c8d6e5;
+  border-radius: 0.8rem 0 0 0.8rem;
+  font-size: 1.4rem;
+}
+
+.input_add:focus {
+  border: solid 1px #00d2d3;
+  border-right: none;
+}
+
+.button_add {
+  background-color: #54a0ff;
+  color: #f3f3f3;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  border-radius: 0 0.8rem 0.8rem 0;
+  /*border-radius: top-left top-right bottom-right bottom-left*/
+  border: none;
+  cursor: pointer;
+  transition: linear 0.3s;
+}
+
+.button_add:hover {
+  background-color: #2e86de;
+  transition: linear 0.3s;
+}
+
+/* container de tarefas */
+
+.container_tarefas {
+  width: 95%;
+  min-height: 10rem;
+  border-radius: 0.5rem;
+  padding: 1rem 0;
+  overflow-y: auto;
+  display: none;
+}
+
+.lista_tarefas {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  color: #222f3e;
+  padding: 0.8rem 0.5rem;
+}
+
+li > p,
+li > span {
+  font-size: 1.4rem;
+}
+
+li > p:before {
+  content: "🔘";
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+li > p {
+  width: 80%;
+}
+
+/* container modelo */
+
+.modelo {
+  width: 95%;
+  min-height: 10rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modelo_tarefa {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #8395a770;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.modelo_conteudo {
+  padding: 0.8rem 0.5rem;
+  background: #c3f3d990;
+  border-radius: 0.5rem;
+}
+
+.modelo_tarefa:last-child {
+  opacity: 0.6;
+}
+
+/* container dos botões */
+
+.container_botoes {
+  width: 95%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0 2rem;
+}
+
+.button_marca {
+  background: #54a0ff;
+  border: solid 1px #54a0ff;
+}
+
+.button_limpa {
+  background: #f368e0;
+  border: solid 1px #f368e0;
+}
+
+.button_limpa,
+.button_marca {
+  color: #f3f3f3;
+  padding: 1.2rem 1rem;
+  font-size: 1.5rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: linear 0.3s;
+}
+
+.button_marca:hover {
+  background: #f3f3f3;
+  color: #54a0ff;
+  transition: linear 0.3s;
+}
+
+.button_limpa:hover {
+  background: #f3f3f3;
+  color: #f368e0;
+  transition: linear 0.3s;
+}
+
+/* responsividade */
+
+@media only screen and (max-width: 480px) {
+  .container_principal {
+    min-width: 30rem;
+    padding: 1.5rem;
+  }
+
+  .titulo_lista {
+    margin: 2rem 0;
+    font-size: 2rem;
+  }
+
+  .form_add {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .input_add {
+    width: 100%;
+    border-radius: 0.8rem;
+    font-size: 1.2rem;
+  }
+
+  .input_add:focus {
+    border-right: solid 1px #00d2d3;
+  }
+
+  .button_add {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    border-radius: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+
+  .modelo {
+    min-height: 7rem;
+    padding: 0.5rem 0;
+  }
+
+  .modelo_tarefa {
+    padding: 0.7rem;
+  }
+
+  .modelo_conteudo {
+    padding: 0.6rem 0.5rem;
+  }
+
+  .container_botoes {
+    /* width: 100%; */
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  .button_marca,
+  .button_limpa {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+  .button_limpa {
+    margin-top: 0.5rem;
+  }
+}
