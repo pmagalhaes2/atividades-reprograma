@@ -43,9 +43,9 @@ botaoAdd.addEventListener("click", (evento) => {
 
     modelo.style.display = "none";
     containerDeTarefas.style.display = "block"; // coloca  div de tarefas com display block para elas aprarecerem na tela por padrao tudo tem display block no html
-
-    form.reset(); // reseta o formulário para n aparecer no input o ultimo texto
+    // reseta o formulário para n aparecer no input o ultimo texto
   }
+  form.reset();
 
   textoTarefa.addEventListener("click", () => {
     // if(!textoTarefa.classList.contains('checked')) {
