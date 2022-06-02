@@ -72,7 +72,7 @@ let JSON = [
 
 const cardsContainer = document.querySelector(".cardsContainer");
 
-const teste = JSON.forEach((el) => {
+const updatedCards = JSON.forEach((el) => {
   let cards = document.createElement("div");
   cards.classList.add("cards");
   cardsContainer.appendChild(cards);
