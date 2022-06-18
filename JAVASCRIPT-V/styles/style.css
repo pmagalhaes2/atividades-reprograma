@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #5280e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 50px 0 20px 0;
+  color: #212226;
+  text-transform: uppercase;
+}
+
+input {
+  height: 25px;
+  width: 250px;
+  text-align: center;
+  border: 0;
+  border-radius: 5px;
+}
+
+button {
+  height: 25px;
+  width: 60px;
+  border: 5px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #cccaca;
+  cursor: pointer;
+}
+
+.digimonExternalList p {
+  font-size: 0.8rem;
+}
+
+.digimonExternalList a {
+  color: #212226;
+}
+
+.digimonExternalList a:hover {
+  font-weight: 500;
+  text-shadow: 1px 1px 2px #cccaca;
+}
+
+
+.card {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  padding: 40px 25px;
+  max-width: 350px;
+  background: radial-gradient(
+    100% 100% at 0% 0%,
+    rgba(255, 255, 255, 0.33) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 20%);
+  border-radius: 1rem;
+}
+
+#digimonImg {
+  margin-bottom: 1.2rem;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+p {
+  color: #212226;
+  font-size: 1.1rem;
+}

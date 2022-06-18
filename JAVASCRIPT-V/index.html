@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Digimon</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <h1 class="title">Digimon Card</h1>
+    <span>
+      <input
+        type="text"
+        id="digimonInput"
+        placeholder="Enter Digimon name"
+      /><button>Search</button></span
+    >
+    <div class="digimonExternalList">
+        <br>
+        <a href="list_of_digimon.html" target="_blank"><p>Here's our full list of every single Digimon</p></a>
+    </div>
+    <div class="line">
+      <div class="card">
+        <img id="digimonImg" src="" alt="" />
+        <p id="digimonName"></p>
+        <p id="digimonLevel"></p>
+      </div>
+    </div>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
