@@ -11,7 +11,6 @@ async function getMovies() {
 }
 
 async function renderMovies(movies) {
-  console.log(movies);
   movies.map((movie) => {
     const section = document.createElement("div");
     section.setAttribute("class", "card");
