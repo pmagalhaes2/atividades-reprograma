@@ -7,18 +7,32 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #ffffff;
+  --bg-dark: #212226;
+  --medium-grey: #2f3034;
+  --light-grey: #e0dede;
+  --green: #15cdcb;
+  --purple: #5280e2;
+}
+
 body {
-  background-color: #212226;
+  background-color: var(--bg-dark);
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2f3034;
+  background-color: var(--medium-grey);
   width: 100%;
   height: 80px;
   padding: 40px;
+}
+
+.title-green {
+  color: var(--green);
+  font-weight: 600;
 }
 
 .information-search {
@@ -27,7 +41,7 @@ body {
   align-items: center;
   max-width: 800px;
   height: 25px;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .information-search input {
@@ -40,24 +54,65 @@ body {
 .search-button {
   width: 20px;
   border: 0;
-  background-color: #ffffff;
+  background-color: var(--white);
   cursor: pointer;
-}
-
-.title-green {
-  color: #15cdcb;
-  font-weight: 600;
 }
 
 span,
 .subtitle-not-found {
-  color: #e0dede;
+  color: var(--light-grey);
 }
 
 section {
   display: flex;
   justify-content: center;
   position: relative;
+}
+
+.card {
+  margin: 8% auto;
+  width: 250px;
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px var(--purple);
+}
+
+p,
+h3 {
+  font-size: 0.8rem;
+  color: var(--light-grey);
+}
+
+.line-empty {
+  margin-top: 10px;
+}
+
+.profile-informations {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  width: 20px;
+  margin-right: 2px;
+  align-items: center;
+}
+
+.profile-informations p {
+  margin-right: 10px;
+}
+
+.profile-informations a {
+  width: 20px;
+  height: 20px;
+}
+
+.not-found-img {
+  width: 450px;
+  margin: 30px auto;
 }
 
 .repositories-list {
@@ -80,56 +135,6 @@ section {
   margin: 20px 0;
 }
 
-.card {
-  margin: 8% auto;
-  width: 250px;
-}
-
-p,
-h3 {
-  font-size: 0.8rem;
-  color: #e0dede;
-}
-
-.line-empty {
-  margin-top: 10px;
-}
-
-.profile-img {
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px #5280e2;
-}
-
-.icons {
-  width: 20px;
-  margin-right: 2px;
-  align-items: center;
-}
-
-.profile-informations {
-  display: flex;
-  align-items: center;
-}
-
-.profile-informations p {
-  margin-right: 10px;
-}
-
-.profile-informations a {
-  width: 20px;
-  height: 20px;
-}
-
-section h2 {
-  font-size: 28px;
-}
-
-.not-found-img {
-  width: 450px;
-  margin: 30px auto;
-}
-
 .informations {
   display: flex;
   justify-content: space-between;
@@ -139,7 +144,7 @@ section h2 {
 .not-found-repositories {
   align-self: center;
   margin: 0 auto;
-  color: #e0dede
+  color: var(--light-grey);
 }
 
 footer {
@@ -150,7 +155,7 @@ footer {
   bottom: 0;
   width: 100vw;
   height: 30px;
-  background: #2f3034;
+  background: var(--medium-grey);
   text-align: center;
-  color: #e0dede;
+  color: var(--light-grey);
 }
