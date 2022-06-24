@@ -82,8 +82,8 @@ async function getRepositories(login) {
 
 async function createRepositoriesCards(repositories) {
   const { name, description, language, stargazers_count } = repositories;
-  const repositoriesList = document.createElement("div");
 
+  const repositoriesList = document.createElement("div");
   repositoriesList.setAttribute("class", "repositories-list");
   section.appendChild(repositoriesList);
 
