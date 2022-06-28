@@ -7,8 +7,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --purple: #686aac;
+  --white: #ffffff;
+  --light-grey: #636363;
+}
+
 .header {
-  background-color: #686aac;
+  background-color: var(--purple);
   height: 400px;
   width: 100%;
   display: flex;
@@ -20,7 +26,7 @@
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .main {
@@ -57,13 +63,13 @@
 
 hr {
   width: 50%;
-  color: #636363;
+  color: var(--light-grey);
   align-content: center;
 }
 
 .learning-title {
   margin: 3rem 0;
-  color: #686aac;
+  color: var(--purple);
   font-size: 3rem;
   text-align: center;
 }
@@ -99,8 +105,8 @@ footer {
   justify-content: center;
   height: 100px;
   width: 100%;
-  background-color: #686aac;
-  color: #ffffff;
+  background-color: var(--purple);
+  color: var(--white);
 }
 
 @media (max-width: 768px) {
