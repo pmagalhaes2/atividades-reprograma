@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #686aac;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.about-me img {
+  width: 25%;
+  margin-right: 30px;
+}
+
+.about-me-text h2,
+.card-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-me-text p {
+  font-weight: 300;
+}
+
+hr {
+  width: 50%;
+  color: #636363;
+  align-content: center;
+}
+
+.learning-title {
+  margin: 3rem 0;
+  color: #686aac;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.card img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-text {
+  text-align: justify;
+  font-weight: 300;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: #686aac;
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: 300px;
+  }
+
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .about-me {
+    flex-wrap: wrap;
+    margin: 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .about-me img {
+    width: 80%;
+    margin-right: 0;
+  }
+
+  .learning-title {
+    margin: 2rem 0;
+    font-size: 2rem;
+    padding: 0 20px;
+  }
+
+  .cards-container {
+    width: 100%;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
