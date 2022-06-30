@@ -1,7 +1,7 @@
 function Skills(props) {
   return (
-    <div class="learning">
-      <h2 class="learning-title">{props.title}</h2>
+    <div className="learning">
+      <h2 className="learning-title">{props.title}</h2>
     </div>
   );
 }

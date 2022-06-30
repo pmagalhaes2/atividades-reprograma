@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div class="main">
+    <div className="main">
       <Header title="Meu Diário da Reprograma" />
       <About
         image="./src/images/profile.png"
