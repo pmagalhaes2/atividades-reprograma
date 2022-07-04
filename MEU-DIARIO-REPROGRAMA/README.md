@@ -18,3 +18,6 @@ Coisas legais que podem ser aprendidas com esse projeto:
 # Mobile Behavior
 
 ![Image](https://github.com/pmagalhaes2/atividades-reprograma/blob/main/MEU-DIARIO-REPROGRAMA/src/images/mobile-behavior.gif?raw=true)
+
+---
+Desenvolvido por Patricia Magalhães 💙
