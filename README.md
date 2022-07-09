@@ -56,6 +56,10 @@ Olá! Esse repositório foi desenvolvido com o intuíto de armazenar as resoluç
 
 > [Link para repositório](https://github.com/pmagalhaes2/atividades-reprograma/tree/main/MEU-DIARIO-REPROGRAMA)
 
+### Semana 15 - React II - Revisão e prática de conceitos
+
+> [Link para repositório](https://github.com/pmagalhaes2/atividades-reprograma/tree/main/MEU-DIARIO-PORTFOLIO-REPROGRAMA)
+
 ---
 
 Desenvolvido por Patricia Magalhães 💙
