@@ -1,4 +1,4 @@
-# Meu Diário da Reprograma
+# Meu Diário/Portfólio da Reprograma
 
 Olá! Esse projeto foi desenvolvido com a intenção de praticar React.
 
@@ -21,3 +21,6 @@ Coisas legais que podem ser aprendidas com esse projeto:
 # Mobile Behavior
 
 ![Image](https://github.com/pmagalhaes2/atividades-reprograma/blob/main/MEU-DIARIO-PORTFOLIO-REPROGRAMA/src/images/mobile-behavior.gif?raw=true)
+
+---
+Desenvolvido por Patricia Magalhães 💙
