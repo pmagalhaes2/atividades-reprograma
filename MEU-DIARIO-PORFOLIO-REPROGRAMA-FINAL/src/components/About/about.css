@@ -1,0 +1,22 @@
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin: 40px auto;
+}
+
+.about-me img {
+  width: 30%;
+  margin-right: 30px;
+}
+
+.about-me-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.about-me-text p {
+  font-weight: 300;
+}

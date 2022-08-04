@@ -1,0 +1,30 @@
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  margin-bottom: 20px;
+}
+
+.card-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-text {
+  text-align: justify;
+  font-weight: 300;
+}

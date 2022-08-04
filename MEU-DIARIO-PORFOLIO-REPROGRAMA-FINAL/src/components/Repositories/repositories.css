@@ -1,0 +1,17 @@
+.repositories-container {
+  display: grid;
+  width: 75%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.repository-card {
+  height: 200px;
+  width: 450px;
+  background-color: #686aac;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 10px;
+}

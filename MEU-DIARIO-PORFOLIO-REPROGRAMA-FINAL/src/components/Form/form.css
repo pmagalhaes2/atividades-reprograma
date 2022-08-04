@@ -1,0 +1,40 @@
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+input,
+textarea,
+button {
+  font-size: 1rem;
+  color: #445464;
+  border-radius: 5px;
+  border: 1px solid #445464;
+}
+
+input,
+textarea {
+  width: 400px;
+}
+
+.campo {
+  margin-bottom: 1em;
+}
+
+.campo label {
+  margin-bottom: 0.2em;
+  color: #445464;
+  display: block;
+}
+
+button {
+  background-color: #3f3d56;
+  color: #ffffff;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}

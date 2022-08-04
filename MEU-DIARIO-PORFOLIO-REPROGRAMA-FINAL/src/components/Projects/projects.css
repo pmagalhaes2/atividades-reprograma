@@ -1,0 +1,39 @@
+.projects-container {
+  background-color: #686aac;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.project-card {
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 35px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.project-gif {
+  width: 500px;
+  height: 280px;
+}
+
+.project-description {
+  margin: 1rem;
+}
+
+.skills {
+  padding-top: 50px;
+  text-align: center;
+  color: #686aac;
+  font-size: 48px;
+}
+.enter-repo {
+  bottom: 0;
+  margin-top: 100%;
+}
