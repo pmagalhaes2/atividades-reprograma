@@ -60,6 +60,10 @@ Olá! Esse repositório foi desenvolvido com o intuíto de armazenar as resoluç
 
 > [Link para repositório](https://github.com/pmagalhaes2/atividades-reprograma/tree/main/MEU-DIARIO-PORTFOLIO-REPROGRAMA)
 
+### Semana 16 - React III - React e API
+
+> [Link para repositório](https://github.com/pmagalhaes2/atividades-reprograma/tree/main/MEU-DIARIO-PORFOLIO-REPROGRAMA-FINAL)
+
 ---
 
 Desenvolvido por Patricia Magalhães 💙
